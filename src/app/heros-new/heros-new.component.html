@@ -1,0 +1,9 @@
+<div>
+  <Label for="">Nom du héro :</Label>
+  <input type="text" class="form-control" [(ngModel)]="newHero.heroName">
+</div>
+<div>
+  <label for="">Est-il en vie</label>
+  <input type="text" class="form-control" placeholder="Mort ou En vie" [(ngModel)]="newHero.heroVie">
+</div>
+  <button (click)="onSaveHeros()">Ajout d'héros</button>

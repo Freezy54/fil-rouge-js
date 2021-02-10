@@ -1,0 +1,17 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <img width="300" alt= "image-logo" src="https://p1.hiclipart.com/preview/158/696/5/avengers-6-hq-yenilmezler-6-hq-marvel-studios-the-avengers-logo.jpg">
+
+  <div>
+    <br>
+    <a routerLink="new" routerLinkActive="active">Nouveau héros</a>
+    <br>
+    <a routerLink="liste" routerLinkActive="active">Liste des héros</a>
+    <br>
+    <a routerLink="modif/:id" routerLinkActive="active">Modifie les héros</a>
+</div>
+  
+  <router-outlet></router-outlet>

@@ -1,0 +1,7 @@
+<div>
+  <h2>Héros : {{heroName}} <br> Vie: {{ getEnVie()}} </h2>
+  <a class="modifer" [routerLink]="['/modif',  id]" routerLinkActive="active">M</a>
+  <button class="btn btn-outline-sucess" (click)="changementEtat()" style="background-color: black; color: white">changement d'état</button>
+  <button class="remove" (click)= "removeHero(id)">X</button>
+  
+</div>
